@@ -6,6 +6,7 @@ Unofficial minecraft java edition installer made for all Linux distributions
 It requires ```wget``` and ```tar``` to be already installed on your system.
 
 MINECRAFT BINARY HAS ITS OWN DEPENDENCIES AND THIS INSTALLER DOESN'T INSTALL THEM!!!
+But you probably have them already installed by your system.
 
 ### Instalation
 1. Open your terminal and type:
@@ -25,7 +26,7 @@ cdmod +rx minecraft-installer
 ./minecraft-installer
 ```
 You have installed Minecraft to your system.
-Open it your application menu and enjoy.
+Open it in your application menu and enjoy.
 
 ## References
 [Icon](https://icon-icons.com/icon/minecraft-logo/168974) by [VectorLogoZone](https://icon-icons.com/users/DmkIGLRdReSCIBJ7pItgP/icon-sets/)
