@@ -1,0 +1,16 @@
+#!/bin/bash
+#Unofficial cross distribution minecraft installer
+echo "Minecraft installer 1.0"
+echo "Downloading Minecraft Launcher"
+wget https://launcher.mojang.com/download/Minecraft.tar.gz
+echo "Extracting archive..."
+tar -xvf Minecraft.tar.gz
+echo "Creating executables in /usr/bin directory"
+sudo cp -r minecraft-launcher/minecraft-launcher /usr/bin/
+echo "Creating menu icon"
+sudo cp minecraft-launcher.svg /usr/share/icons
+sudo cp minecraft-launcher.desktop /usr/share/applications/
+echo "Cleaning up..."
+rm Minecraft.tar.gz
+rm -r minecraft-launcher
+echo "Done"
