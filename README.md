@@ -24,7 +24,7 @@ cdmod +rx minecraft-installer
 ```
 ./minecraft-installer
 ```
-You have installed Minecraft to your system.Pre-Depends: dpkg (>= 1.14.0), wget | curl, ca-certificates
+You have installed Minecraft to your system.
 Open it your application menu and enjoy.
 
 ## References
