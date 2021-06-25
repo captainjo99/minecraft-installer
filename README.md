@@ -1,2 +1,2 @@
 # minecraft-installer
-Unofficial minecraft installer made for all distributions
+Unofficial minecraft installer made for all Linux distributions
